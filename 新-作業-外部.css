@@ -1,0 +1,117 @@
+
+ *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+        scroll-behavior:smooth;
+    }
+    
+    
+    
+    nav{
+        width: 367px;
+        height: 100vh;
+        background-color: burlywood;
+        float:left;
+        padding-top: 75px;
+        
+    }
+    
+    main{
+        width: calc(100% - 367px );
+        height: 100vh;
+        background-color: darkslateblue;
+        float:right;
+        position: relative;
+    }
+    
+    
+    .logo{
+        width: 150px;
+        height: 150px;
+        background-color: brown;
+        margin:auto;
+        margin-bottom: 60px;
+        color: antiquewhite;
+        font-size: 54px;
+        text-align: center;
+    
+    }
+    
+    .links{
+            width: 150px;
+            /* height: 150px;高不用 因為是照文字多寡去排,所以不要設限 */
+            background-color: blanchedalmond;
+            color: brown;
+            margin:auto;
+    
+    
+    }
+    
+    a{
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        color: brown;
+        
+    }
+    
+    .container{
+        width: 955px;
+        height: 570px;
+        background-color: cadetblue;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    
+    
+    .container > div{
+        width: 315px;
+        height: 570px;
+        background-color: cornsilk;
+        float: left;
+        background-position:center;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }   
+    
+    
+    .x{
+        background-image:url('./1.jpg') ;
+        background-position: 80% 90%;
+    }
+
+    .x:hover{
+        background-size: 185%;
+        background-position: 85% 70%;
+
+    }
+
+
+
+    .y{
+        background-image:url('./4.jpg');
+        margin:0px 5px;
+      
+    }
+
+    .y:hover:hover{
+        background-size: 185%;
+        background-position: 55% 10%;
+
+    }
+
+
+    .z{
+        background-image:url('./3.png') ;
+
+    }
+    .z:hover{
+        background-size: 155%;
+        background-position: 55% 30%;
+
+    }
